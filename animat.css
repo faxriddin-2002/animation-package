@@ -70,6 +70,7 @@ body {
     align-items: center;
 }
 
+
 .cards .card {
     height: 450px;
     background-color: #fff;
@@ -87,6 +88,16 @@ body {
     margin: 0px 20px;
 }
 
+@media screen and(max-width: 900px) {
+ .cards {
+     display: block;
+     margin: auto;
+  }  
+  .cards .card {
+      display: block;
+      margin: auto;
+  }   
+}
 .cards .card::before {
     height: 190px;
     width: calc(100% + 100px);
